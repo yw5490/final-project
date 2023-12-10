@@ -149,6 +149,11 @@ li {
     font-weight: 600;
 }
 
+.button:hover {
+    border: #2b343b;
+    border-style: solid;
+}
+
 footer {
     background-color: #eeddd2;
     color: #2b343b;
