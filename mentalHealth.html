@@ -4,37 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harmony Hub</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
         <a href="index.html"><img id="logo" src="image/Logo.png" alt="Logo"></a>
         <div id="header-links">
-            <a href="join.html">Join</a>
-            <a href="login.html">Login</a>
+            <button onclick="showAlert()">Join</button>
+            <button onclick="showAlert()">Login</button>
         </div>
     </header>
 
-    <div id="navBar">
-        <div id="spaceHolder"></div>
-        <div class="navFunc">
-            <img class="navImg" src="image/discussion.jpg" alt="Discussion Forum">
-            <a class="button" href="discussion.html">Discussion Forum</a>
+    <main>
+        <div id="navBar">
+            <div id="spaceHolder"></div>
+            <div class="navFunc">
+                <img class="navImg" src="image/discussion.jpg" alt="Discussion Forum">
+                <a class="button" href="discussion.html">Discussion Forum</a>
+            </div>
+            <div class="navFunc">
+                <img class="navImg" src="image/mentalHealth.jpeg" alt="Mental Health Resources">
+                <a class="button" href="mentalHealth.html">Mental Health Resources</a>
+            </div>
+            <div class="navFunc">
+                <img class="navImg" src="image/challenge.jpeg" alt="Positive Challenge of the Day">
+                <a class="button" href="challenge.html">Positive Challenge of the Day</a>
+            </div>
+            <div id="spaceHolder"></div>
         </div>
-        <div class="navFunc">
-            <img class="navImg" src="image/mentalHealth.jpeg" alt="Mental Health Resources">
-            <a class="button" href="mentalHealth.html">Mental Health Resources</a>
-        </div>
-        <div class="navFunc">
-            <img class="navImg" src="image/challenge.jpeg" alt="Positive Challenge of the Day">
-            <a class="button" href="challenge.html">Positive Challenge of the Day</a>
-        </div>
-        <div id="spaceHolder"></div>
-    </div>
 
-    <!-- <footer>
-        <img id="footer-logo" src="image/Logo.png" alt="Logo">
-        <p>&copy; 2023 Harmony Hub</p>
-    </footer> -->
+        <div class="content">
+            <h2>Mental Health Resources</h2>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <p>Step into the Mental Health Resources Page at HarmonyHub, a dedicated space crafted with your well-being in mind. Our commitment to fostering a supportive community extends to providing an array of resources designed to promote mental health and emotional wellness. Here, you'll discover an integration of insightful articles, practical tips, and valuable resources aimed at guiding you on your journey to mental well-being. From understanding the importance of self-care to practical strategies for managing stress, our collection covers a spectrum of topics to empower you with knowledge and tools for a balanced and resilient mindset.</p>
+                <p>In addition to curated content, we recognize the significance of collaboration with external mental health organizations. Our page provides direct links to reputable organizations, ensuring you have access to a broader network of professional support. These links connect you to a wealth of expert guidance, counseling services, and additional resources to complement the information available on our platform. We believe in the strength of collective support and seek to bridge the gap between our community and established mental health advocates.</p>
+                <p>To further uphold your privacy and provide a safe space for sharing personal experiences, we have created a confidential support forum within our Mental Health Resources Page. This forum is a sanctuary for open and honest conversations, allowing users to connect, share their journeys, and seek support from peers who understand. Embracing the principles of empathy and compassion, this forum is moderated to ensure a secure and uplifting environment for all participants. Join us in this collective effort to prioritize mental health and create a community where support and understanding thrive.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.helpguide.org/articles/mental-health/social-media-and-mental-health.htm"><h3>Social Media and Mental Health</h3></a>
+                <div class="iframe-container">
+                    <iframe src="https://www.helpguide.org/articles/mental-health/social-media-and-mental-health.htm" title="Social Media and Mental Health
+                    "></iframe>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.crisistextline.org"><h3>Crisis Text Line</h3></a>
+                <div class="iframe-container">
+                    <iframe src="https://www.crisistextline.org" title="Crisis Text Line"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" charset="utf-8"></script>
 </body>
 </html>

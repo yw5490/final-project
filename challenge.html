@@ -4,37 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harmony Hub</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
         <a href="index.html"><img id="logo" src="image/Logo.png" alt="Logo"></a>
         <div id="header-links">
-            <a href="join.html">Join</a>
-            <a href="login.html">Login</a>
+            <button onclick="showAlert()">Join</button>
+            <button onclick="showAlert()">Login</button>
         </div>
     </header>
 
-    <div id="navBar">
-        <div id="spaceHolder"></div>
-        <div class="navFunc">
-            <img class="navImg" src="image/discussion.jpg" alt="Discussion Forum">
-            <a class="button" href="discussion.html">Discussion Forum</a>
+    <main>
+        <div id="navBar">
+            <div id="spaceHolder"></div>
+            <div class="navFunc">
+                <img class="navImg" src="image/discussion.jpg" alt="Discussion Forum">
+                <a class="button" href="discussion.html">Discussion Forum</a>
+            </div>
+            <div class="navFunc">
+                <img class="navImg" src="image/mentalHealth.jpeg" alt="Mental Health Resources">
+                <a class="button" href="mentalHealth.html">Mental Health Resources</a>
+            </div>
+            <div class="navFunc">
+                <img class="navImg" src="image/challenge.jpeg" alt="Positive Challenge of the Day">
+                <a class="button" href="challenge.html">Positive Challenge of the Day</a>
+            </div>
+            <div id="spaceHolder"></div>
         </div>
-        <div class="navFunc">
-            <img class="navImg" src="image/mentalHealth.jpeg" alt="Mental Health Resources">
-            <a class="button" href="mentalHealth.html">Mental Health Resources</a>
-        </div>
-        <div class="navFunc">
-            <img class="navImg" src="image/challenge.jpeg" alt="Positive Challenge of the Day">
-            <a class="button" href="challenge.html">Positive Challenge of the Day</a>
-        </div>
-        <div id="spaceHolder"></div>
-    </div>
 
-    <!-- <footer>
-        <img id="footer-logo" src="image/Logo.png" alt="Logo">
-        <p>&copy; 2023 Harmony Hub</p>
-    </footer> -->
+        <div class="content">
+            <h2>Positive Challenge of the Day</h2>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Elevate Your Well-being with Daily Positivity</h3>
+                <p>Welcome to the Positive Challenge of the Day at HarmonyHub—a dedicated space where we invite you to embark on a journey of self-discovery, resilience, and positive transformation. Our aim is to cultivate a community that actively engages in uplifting activities, fostering a collective sense of joy and accomplishment. Each day, we present you with a fresh positive challenge, carefully curated to promote well-being, gratitude, and mindfulness.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Embrace the Challenge</h3>
+                <p>Challenge yourself to explore the vast spectrum of positive activities, from acts of kindness to personal reflections and wellness practices. Whether it's expressing gratitude, engaging in acts of self-love, or spreading positivity to others, these challenges are designed to be simple yet impactful, contributing to your overall sense of happiness and fulfillment.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Share Your Journey</h3>
+                <p>We believe in the power of shared experiences. Our platform allows you to share your positive challenge journey with the community. Whether through words, images, or videos, your experiences and achievements become a source of inspiration for others. Celebrate the small victories, connect with fellow participants, and collectively build an atmosphere of encouragement and support.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Collaborate on Positive Initiatives</h3>
+                <p>In addition to individual challenges, we encourage collaboration on broader positive initiatives. Join forces with fellow community members to create projects, events, or campaigns that spread positivity on a larger scale. Whether it's a community service project, a wellness workshop, or a collaborative art endeavor, these initiatives enhance the sense of togetherness within our community.</p>
+                <p>By participating in the Positive Challenge of the Day, you not only enhance your personal well-being but also contribute to the creation of a harmonious and uplifting digital space. Let's embark on this journey together, embracing the positivity within and radiating it outward for the greater good of our community and beyond.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Today's Challenge: "Gratitude Journaling"</h3>
+                <p>Today's challenge is all about cultivating gratitude. Take a few moments to reflect on the positive aspects of your life, big or small. Set aside time to write down three things you are grateful for today. These can be moments, people, experiences, or even personal qualities. Consider why each of these things brings joy to your life.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h4>How to Participate: </h4>
+                <ol>
+                    <li>Find a quiet space where you can reflect without distractions.</li>
+                    <li>Grab a notebook or use a digital tool to jot down your thoughts.</li>
+                    <li>List three things you are grateful for today.</li>
+                    <li>Reflect on the impact these positive aspects have on your well-being.</li>
+                </ol>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h4>Share Your Gratitude: </h4>
+                <p>After completing the challenge, share your gratitude reflections with the HarmonyHub community. You can post a few sentences, a photo, or even a short video expressing your thoughts. Let's create a wave of gratitude and inspire each other to appreciate the beauty in our lives.</p>
+                <p>Remember, the goal is not only to enhance your own sense of gratitude but also to contribute to a positive and uplifting atmosphere within our community. Enjoy the journey of gratitude!</p>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" charset="utf-8"></script>
 </body>
 </html>

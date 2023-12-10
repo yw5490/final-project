@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harmony Hub</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
         <a href="index.html"><img id="logo" src="image/Logo.png" alt="Logo"></a>
         <div id="header-links">
-            <a href="join.html">Join</a>
-            <a href="login.html">Login</a>
+            <button onclick="showAlert()">Join</button>
+            <button onclick="showAlert()">Login</button>
         </div>
     </header>
 
-    <div id="main">
+    <main>
         <div id="navBar">
             <div id="spaceHolder"></div>
             <div class="navFunc">
@@ -35,14 +36,24 @@
 
         <div class="content">
             <h2>Discussion Forum</h2>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Discussion Forums: A Spectrum of Thoughtful Engagement</h3>
+                <p>Welcome to the vibrant realm of HarmonyHub's Discussion Forums, where we've meticulously crafted an array of categories to cater to the diverse interests of our community members. Engage in discussions that span the spectrum—from arts and culture to wellness and technology. Whether you're passionate about sharing your creative endeavors, seeking advice on personal growth, or diving into the latest trends, our categorized forums provide the perfect space for you to connect with like-minded individuals. The thoughtful organization ensures that every member finds a niche where their voice is not only heard but valued.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Guided Conversations, Empowered Connections</h3>
+                <p>At HarmonyHub, we prioritize the quality of interactions within our Discussion Forums. Our dedicated team of moderators ensures that conversations remain respectful, inclusive, and aligned with our community guidelines. This commitment to moderation fosters an environment where members can express themselves freely without fear of negativity or harassment. By keeping discussions well-moderated, we aim to empower our community members to share their thoughts, experiences, and insights in an atmosphere that encourages personal growth and positive connections.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3>Spotlight on Positivity: Celebrating Constructive Dialogues</h3>
+                <p>Within our Discussion Forums, we not only categorize discussions but also actively highlight those that embody positivity and constructive engagement. The goal is to showcase the wealth of thoughtful conversations happening within our community, creating a space where members can find inspiration and encouragement. By shining a spotlight on positive discussions, we hope to reinforce the ethos of HarmonyHub and inspire others to contribute to the ongoing narrative of connection, understanding, and shared joy. Join us in these forums, where every conversation contributes to the harmonious symphony of our positive community.</p>
+            </div>
         </div>
-    </div>
-
-    
-
-    <footer>
-        <img id="footer-logo" src="image/Logo.png" alt="Logo">
-        <p>&copy; 2023 Harmony Hub</p>
-    </footer>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" charset="utf-8"></script>
 </body>
 </html>

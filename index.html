@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harmony Hub</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
         <a href="index.html"><img id="logo" src="image/Logo.png" alt="Logo"></a>
         <div id="header-links">
-            <a href="join.html">Join</a>
-            <a href="login.html">Login</a>
+            <button onclick="showAlert()">Join</button>
+            <button onclick="showAlert()">Login</button>
         </div>
     </header>
 
@@ -24,12 +25,12 @@
         <img src="image/happyPeople.png" alt="Happy People">
     </div>
 
-    <div id="purpose">
+    <div id="purpose" data-aos="fade-up" data-aos-duration="1000">
         <h2>Purpose of the Community</h2>
         <p>Welcome to HarmonyHub, a digital haven crafted with the singular purpose of fostering positive connections and cultivating a harmonious online community. In a world often marked by negativity and polarization, HarmonyHub stands as a beacon of unity, encouraging individuals to engage in uplifting conversations, share inspiring stories, and collectively create a space where kindness and respect prevail. Our mission is to bridge hearts, transcend differences, and build a network of individuals dedicated to promoting joy, understanding, and a sense of togetherness. Join us on this journey where every interaction contributes to the symphony of positivity, making HarmonyHub not just a community but a vibrant celebration of the beauty that emerges when people come together in harmony.</p>
     </div>
 
-    <div id="functionGroup">
+    <div id="functionGroup" data-aos="fade-up" data-aos-duration="1000">
         <div class="function">
             <img class="iconImg" src="image/discussion.jpg" alt="Discussion Forum">
             <a class="button" href="discussion.html">Discussion Forum</a>
@@ -44,7 +45,7 @@
         </div>
     </div>
 
-    <div id="guidelines">
+    <div id="guidelines" data-aos="fade-up" data-aos-duration="1000">
         <h2>Community Guidelines</h2>
         <ol>
             <li><p><b>Respectful Interaction: </b>Treat every member with kindness, empathy, and respect. Avoid personal attacks, offensive language, or discriminatory remarks.</p></li>
@@ -63,5 +64,8 @@
         <img id="footer-logo" src="image/Logo.png" alt="Logo">
         <p>&copy; 2023 Harmony Hub</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" charset="utf-8"></script>
 </body>
 </html>
